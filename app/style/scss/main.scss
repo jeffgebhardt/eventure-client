@@ -3,6 +3,9 @@
 @import "../vendor/bootstrap/stylesheets/_bootstrap";
 @import "../vendor/font-awesome/scss/font-awesome";
 
+@import "./components/_header.scss";
+@import "./components/_home.scss";
+
 // import order
 // utils, vendor, base, layout, components, pages, themes
 
@@ -10,4 +13,11 @@
   float: right;
   width: 30%;
   height: 100%;
+}
+
+
+.angular-google-map-container { height: 400px; }
+
+body {
+  padding-top: 70px;
 }
